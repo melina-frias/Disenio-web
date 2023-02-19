@@ -1,10 +1,12 @@
-Link: https://melina-frias.github.io/Diseño-web/
+Link: https://github.com/melina-frias/Disenio-web
 
 # Introducción
 
+La idea es la interpretacion y ejecución de mis conocimientos en el área del Front-end
+
 Este proyecto se creó teniendo como referencia un sitio web ya creado, en este caso corresponde al siguiente enlace : https://www.behance.net/gallery/151760423/Business-Website-Design?tracking_source=search_projects%7Cbusiness+website
 
-La idea es la interpretacion y ejecución de mis conocimientos en el área del Front-end
+
 
 ## Propósito general de sitio
 
