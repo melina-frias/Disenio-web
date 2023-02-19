@@ -1,0 +1,11 @@
+export {Background} from './Background/Background'
+export {BackgroundItems} from './BackgroundItems/BackgroundItems'
+export {Header} from './Header/Header'
+export {Hero} from './Hero/Hero'
+export {Precios} from './Precios/Precios'
+export {Servicios} from './Servicios/Servicios'
+export {ItemsServicios} from './ItemsServicios/ItemsServicios'
+export {SectionFinal} from './SectionFinal/SectionFinal'
+export {Formulario} from './Formulario/Formulario'
+export {Footer} from './Footer/Footer'
+

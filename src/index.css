@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;400;500;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+    --ColorFondo: #ffcb0f ;
+    --ColorTexto: #3d3d3c;
+    --FondoSecundario: #999;
+    --ColorDetalle: #e8edea;
+}
+
+.btnGral{
+    background: rgb(255,203,15);
+    background: linear-gradient(180deg, rgba(255,203,15,1) 0%, rgba(245,148,2,1) 97%);    padding: 15px 30px;
+    border-radius: 40px;
+    border: none;
+    color: var(--ColorTexto);
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 12px 30px;
+    /* margin-bottom: 1.25rem; */
+}
+
+
+.btnGral:hover{
+    background: var(--ColorFondo);
+}
+
+.tituloSecciones{
+    color: var(--ColorTexto);
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+
+.textoSecciones{
+    width: 80%;
+    font-size: 0.9rem;
+    margin-bottom: 1.875rem;
+}
+
+@media (max-width:769px){
+    .contenedorTextoImg{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: .9rem 0 3rem 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .contenedorTexto{
+        text-align: center;
+        width: 80%;
+    }
+    .textoSecciones{
+        width: 100%;
+    }
+    
 }

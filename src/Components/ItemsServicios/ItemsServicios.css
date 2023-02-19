@@ -1,0 +1,57 @@
+.Items{
+    height: auto;
+    padding: 3.5rem 0 0 0;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedorItems{
+    flex-wrap: wrap;
+    padding-bottom: 1.25rem;
+}
+
+.boxCard{
+    background-color: #fff;
+    box-shadow: 4px 4px 2.1875rem #8f8f8f85 ;
+    text-align: center;
+    border-radius: 1.25rem;
+    padding: 0 1.875rem;
+    width: 31%;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.icono{
+    width: 7rem;
+    padding: 1.5625rem 0;
+    text-align: center;
+}
+.boxCard h3{
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.boxCard p{
+    font-size: .9375rem;
+    margin: 3.125rem 0;
+    margin: .95rem ;
+}
+
+@media (max-width:769px){
+   .contenedorItems{
+    align-items: center;
+    flex-direction: column;
+   }
+    .boxCard{
+        width: 80%;
+    }
+
+    .boxCard p{
+        padding-bottom: 1.25rem;
+    }
+}

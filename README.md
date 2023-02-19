@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+Link: https://melina-frias.github.io/Diseño-web/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Introducción
 
-## Available Scripts
+Este proyecto se creó teniendo como referencia un sitio web ya creado, en este caso corresponde al siguiente enlace : https://www.behance.net/gallery/151760423/Business-Website-Design?tracking_source=search_projects%7Cbusiness+website
 
-In the project directory, you can run:
+La idea es la interpretacion y ejecución de mis conocimientos en el área del Front-end
 
-### `npm start`
+## Propósito general de sitio
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Página comercial que informa servicios y tarifas, además de información de contacto.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Principales características 
 
-### `npm test`
+Diseño responsive.
+Envio de formulario mediante el servicio de correo que ofrece: https://formspree.io/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tecnología
 
-### `npm run build`
+Este proyecto fue creado con React. Además, para la creación de los estilos de la página, se utilizó Bulma y para ciertos componentes se utilizó Chakra.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Recursos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Se utilizaron los siguientes recursos para el diseño y desarrollo de la página web:
 
-### `npm run eject`
+Adobe Illustrator para el diseño del Background del Hero.
+Iconos: https://www.flaticon.com/
+Fuentes: https://fonts.google.com/knowledge
+Ilustraciones: https://storyset.com/
+Divisor de componentes: https://www.shapedivider.app/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Datos de autor
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Nombre y apellido: Melina Frias
+Mail: meel.frias@gmail.com
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Créditos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<a href="https://www.flaticon.com/free-icons/message" title="message icons">Message icons created by afif fudin - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/list" title="list icons">List icons created by Smashicons - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/check" title="check icons">Check icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/price" title="price icons">Price icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/global" title="global icons">Global icons created by JunGSa - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/telephone" title="telephone icons">Telephone icons created by Ilham Fitrotul Hayat - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/pin" title="pin icons">Pin icons created by Those Icons - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/score" title="score icons">Score icons created by Freepik - Flaticon</a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

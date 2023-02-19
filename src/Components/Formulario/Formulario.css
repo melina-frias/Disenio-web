@@ -1,0 +1,80 @@
+.seccionForm{
+    background-color: var(--ColorTexto);
+    padding: 50px;
+    text-transform: capitalize;
+    position: relative;
+    bottom: -150px;
+}
+
+.tituloForm{
+    color: var(--ColorDetalle);
+    font-weight: bold;
+    font-size: 1.5625rem;
+    margin-bottom: 1.8rem;
+
+}
+
+.contenedorInfo{
+    color: var(--ColorDetalle);
+    margin: 3.75rem 0 2.75rem 0;
+}
+
+.contenedorInfo h3{
+    margin-bottom: 8px;
+}
+
+.contenedorInfo p{
+    font-weight: 500;
+}
+.contenedorInfo img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.datos{
+    margin-left: 1.25rem;
+}
+
+label{
+    color: var(--ColorDetalle);
+}
+
+input[type=text],input[type=email]{
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: .9375rem;
+    width: 100%;
+    margin: .5rem 0 1rem 0;
+    font-size: .9rem;
+}
+
+.textarea{
+    border: none;
+    outline: none;
+    resize: vertical;
+    border-radius: 3px;
+    padding: .9375rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    margin: 1rem 0;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+@media(max-width:769px){
+    .seccionForm{
+        text-align: center;
+        align-items: center;
+    }
+    .contenedorInfo{
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        
+    }
+
+    
+}
+

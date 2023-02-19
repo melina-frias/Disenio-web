@@ -1,0 +1,26 @@
+.precios{
+    height: auto;
+    padding: 1.25rem 0 5rem 0;
+}
+
+/* .imagenPrecio{
+    width: 500px;
+} */
+
+@media(max-width:769px){
+    .precios{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+    
+    .imagenPrecio{
+        width: 50%;
+    }
+
+    
+    
+  
+
+}

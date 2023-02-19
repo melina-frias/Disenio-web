@@ -1,0 +1,79 @@
+.footer{
+    background-color: #2a2a2a;
+    color: var(--ColorDetalle);
+    height: auto;
+    width: 100%;
+    position: absolute;
+    z-index: -5;
+    
+}
+
+.footer > .container{
+    margin-top: 15%;
+}
+
+.logoNav{
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 2rem;
+   
+}
+.logoFooter{
+    width: 12%;
+}
+.navbar{
+    background-color: #2a2a2a;
+}
+
+.footer a{
+    color: var(--ColorDetalle);
+    text-transform: capitalize;
+}
+
+.infoEmpresa{
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 2rem;
+    border-top: 1px solid var(--ColorDetalle);
+
+}
+.terminos{
+    border-right: 1px solid var(--ColorDetalle);
+    padding-right: 15px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.privacidad{
+    padding-left: 15px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.footer a:hover{
+    color: var(--ColorFondo);
+}
+
+@media(max-width:769px){
+    .infoEmpresa{
+        text-align: center;
+    }
+    .logoFooter{
+        width: 32%;
+    }
+
+    .logoNav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .logoFooter{
+        width: 52%;
+        align-self: center;
+    }
+
+    .navbar{
+        gap: 50px;
+    }
+}

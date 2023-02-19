@@ -1,0 +1,18 @@
+.seccionFinal{
+    height: auto;
+    /* margin-bottom: 5rem; */
+    /* padding-top: 1.25rem; */
+}
+
+@media(max-width:769px){ 
+    .seccionFinal{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+    .imagenServicio{
+        width: 50%;
+    }
+}

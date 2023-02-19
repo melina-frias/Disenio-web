@@ -1,0 +1,119 @@
+
+.headerContainer{
+    height: auto;
+    padding: 5px 0;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 2px solid rgba(203, 203, 203, 0);
+}
+
+.headerBg{
+    height: auto;
+    padding: 5px 0;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 2px solid rgba(203, 203, 203, 0.481);
+}
+
+.header{
+    align-items: center;
+}
+.logoHeader{
+    width: 8%;
+}
+
+
+.menuNav a{
+    text-decoration: none;
+    color: var(--ColorTexto);
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-right: 30px;
+}
+
+.menuNav a:hover{
+    color:rgb(228, 137, 0) ;
+    border-bottom: 2px solid rgb(228, 137, 0);
+}
+
+.Btn{
+    background-color: var(--ColorDetalle);
+    border: none;
+    color: var(--ColorTexto);
+    font-size: 1rem;
+    padding: 12px 20px;
+    border-radius: 30px;
+    /* align-content: end; */
+    
+}
+
+.Btn:hover{
+    background-color:var(--ColorTexto) ;
+    color: var(--ColorDetalle);
+}
+
+@media(min-width:768px){
+    .HamburBtn{
+        display: none;
+    } 
+}
+
+@media (max-width:768px){
+    .headerContainer{
+        background-color: #fff;
+    }
+    .Btn{
+        display: none;
+    }
+    .HamburBtn{
+        display: block;
+        margin-right: 10px;
+    }
+
+    .logoHeader{
+        margin-left: 10px;
+        width: 15%;
+    }
+
+    .menuNav{
+        position: fixed;
+        top: 68px;
+        right: -100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #fff;
+        width: 80%;
+        height: 100%;
+        text-align: center;
+        transition: 0.4s;
+        z-index: -1;
+        border: 1px solid rgba(182, 178, 178, 0.481);
+    }
+
+    .menuNav.active{
+        right: 0;
+    }
+
+    .menuNav a{
+        color: var(--ColorTexto);
+        font-size: 1.8rem;
+        margin: 1rem;
+        justify-content: center;
+
+    }
+    .menuNav a:hover{
+        border-bottom: 0;
+    }
+   
+  
+    
+}
+

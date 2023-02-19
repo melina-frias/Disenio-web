@@ -1,0 +1,102 @@
+.imgFondo{
+    background: url(../Imagenes/FondoHero.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.heroContenedor{
+    padding: 1.25rem 0 3rem 0;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contenedorTextoImgHero{
+    align-items: center;
+    padding-top: 50px;
+}
+.textoPrincipal{
+    color: var(--ColorTexto);
+}
+.titulo{
+    font-size: 4.5rem;
+    font-weight: bold;
+    line-height: 4.5rem;
+}
+
+.waveHero{
+    width: 25%;
+    display: inline;
+}
+
+.subtitulo{
+    font-size: 1rem;
+    margin: 1.25rem 0;
+    margin-top: 1.5625rem;
+    text-align: justify;
+    width: 80%;
+}
+
+.imagen{
+    height: 100%;
+    width: 500px;
+}
+.btnChat{
+   color: var(--ColorDetalle);
+    border-radius: 50%;
+    border: none;
+    width: 60px;
+    height: 60px;
+    background: rgb(255,203,15);
+    background: linear-gradient(180deg, rgba(255,203,15,1) 0%, rgba(245,148,2,1) 97%);    padding: 15px 30px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btnChat:hover{
+    background: var(--ColorFondo);
+}
+
+.contenedorBtn{
+    gap: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.text{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+@media (max-width:769px){
+    .heroContenedor,.subtitulo{
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    .imgFondo{
+        background-size: cover;
+    }
+    .contenedorTextoImgHero{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 3rem 0 5rem 0;
+        margin: 30px 0 0 0;
+    }
+
+    .textoPrincipal{
+        width: 80%;
+    }
+
+    .titulo{
+        line-height: 70px;
+    }
+
+    .waveHero{
+        display: none;
+    }
+}
