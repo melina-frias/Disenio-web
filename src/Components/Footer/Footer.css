@@ -84,11 +84,13 @@
     }
 
     .navbar{
-        display: flex;
-       flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+       width: 100%;
     }
 
     .infoEmpresa{
         margin-top: 2.8125rem;
     }
+    
 }

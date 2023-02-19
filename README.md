@@ -1,5 +1,4 @@
 Link: https://github.com/melina-frias/Disenio-web
-https://disenio-o94d2757q-melina-frias.vercel.app/#Inicio
 
 # Introducción
 
