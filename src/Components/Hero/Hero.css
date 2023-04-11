@@ -12,21 +12,25 @@
 }
 
 .contenedorTextoImgHero{
+    width: 100%;
     align-items: center;
     padding-top: 50px;
 }
 .textoPrincipal{
     color: var(--ColorTexto);
+    width: 60%;
 }
 .titulo{
-    font-size: 4.5rem;
+    font-size: 4.42rem;
     font-weight: bold;
     line-height: 4.5rem;
+    
 }
 
 .waveHero{
     width: 25%;
     display: inline;
+    padding-left: 15px;
 }
 
 .subtitulo{
@@ -39,7 +43,8 @@
 
 .imagen{
     height: 100%;
-    width: 500px;
+    width: 40%;
+    
 }
 .btnChat{
    color: var(--ColorDetalle);
@@ -71,6 +76,13 @@
     font-weight: 500;
 }
 
+@media(max-width:1024px){
+    .heroContenedor{
+        padding: 5%;
+    }
+  
+}
+
 @media (max-width:769px){
     .heroContenedor,.subtitulo{
         text-align: center;
@@ -89,7 +101,7 @@
     }
 
     .textoPrincipal{
-        width: 80%;
+        width: 95%;
     }
 
     .titulo{
@@ -98,5 +110,8 @@
 
     .waveHero{
         display: none;
+    }
+    .imagen{
+        width: 50%;
     }
 }

@@ -2,6 +2,7 @@
 .headerContainer{
     height: auto;
     padding: 5px 0;
+    margin-bottom: 10px;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -25,9 +26,12 @@
     align-items: center;
 }
 .logoHeader{
-    width: 8%;
+    width: 10%;
 }
 
+.HamburBtn{
+    display: none;
+}
 
 .menuNav a{
     text-decoration: none;
@@ -50,6 +54,7 @@
     font-size: 1rem;
     padding: 12px 20px;
     border-radius: 30px;
+    margin: 15px 0;
     /* align-content: end; */
     
 }
@@ -59,13 +64,13 @@
     color: var(--ColorDetalle);
 }
 
-@media(min-width:768px){
-    .HamburBtn{
-        display: none;
-    } 
+@media(max-width:1024px){
+    .header{
+        padding: 0 5%;
+    }
 }
 
-@media(max-width:570px) and (max-width:768px){
+@media (max-width:768px){
     .headerContainer{
         background-color: #fff;
     }
@@ -114,10 +119,11 @@
     }
       
 }
-@media(min-width:570px) and (max-width:767px){
+@media (max-width:767px){
     .header{
         display: flex;
         justify-content: space-evenly;
+        padding-top: 1%;
     }
 
     

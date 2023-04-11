@@ -31,6 +31,14 @@
     background: var(--ColorFondo);
 }
 
+.contenedorTextoImg{
+    width: 100%;
+    gap: 8%;
+}
+.contenedorTexto{
+    width: 100%;
+}
+
 .tituloSecciones{
     color: var(--ColorTexto);
     font-size: 2.2rem;
@@ -41,7 +49,7 @@
 
 
 .textoSecciones{
-    width: 80%;
+    width: 100%;
     font-size: 0.9rem;
     margin-bottom: 1.875rem;
 }

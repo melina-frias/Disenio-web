@@ -4,6 +4,19 @@
     /* padding-top: 1.25rem; */
 }
 
+.imagenServicio{
+    width: 50%;
+}
+
+
+@media (max-width:1024px){
+    .seccionFinal{
+        padding: 5%;
+    }
+    .imagenServicio{
+        width: 50%;
+    }
+}
 @media(max-width:769px){ 
     .seccionFinal{
         display: flex;

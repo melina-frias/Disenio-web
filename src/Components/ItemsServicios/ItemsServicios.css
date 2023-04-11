@@ -42,13 +42,22 @@
     margin: .95rem ;
 }
 
+@media(max-width:1024px){
+    .Items{
+        padding: 5%;
+    }
+}
+
 @media (max-width:769px){
+    .Items{
+        width: 100%;
+    }
    .contenedorItems{
     align-items: center;
     flex-direction: column;
    }
     .boxCard{
-        width: 80%;
+        width: 95%;
     }
 
     .boxCard p{

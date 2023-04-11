@@ -68,6 +68,11 @@
         padding-top: 50px;
     }
 
+    .contenedorLogoFooter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .logoFooter{
         width: 52%;
         align-self: center;

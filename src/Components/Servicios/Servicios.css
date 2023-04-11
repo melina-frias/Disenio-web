@@ -1,52 +1,64 @@
-.ContenedorServicios{
+.ContenedorServicios {
     background-color: var(--ColorFondo);
-    
+
 }
-.servicios{
+
+.servicios {
     height: auto;
     padding: 1.25rem 0 7rem 0;
     /* margin-top: 10px; */
-    background-color:var(--ColorFondo);
+    background-color: var(--ColorFondo);
 }
-.circle{
+
+.circle {
     width: 8px;
     display: inline;
     margin-right: 15px;
 }
-.servicios h2{
+
+.servicios h2 {
     text-align: center;
 }
 
-.parrafoServicios{
+.parrafoServicios {
     text-align: center;
     font-size: .9rem;
 }
 
-.contenedorAcordeonImg{
+.contenedorAcordeonImg {
     margin-top: 1rem;
     align-items: center;
     gap: 35px;
 
 }
 
-.imgServicio{
+.imgServicio {
     margin-left: 1.25rem;
 }
 
-@media(max-width:769px){
-    
-    .contenedorAcordeonImg{
+@media(max-width:1024px) {
+
+    .contenedorAcordeonImg {
         display: flex;
         justify-content: center;
         flex-direction: column;
         margin: 0;
-        
+
     }
-    .acordeon{
+
+    .acordeon {
         width: 80%;
         align-self: center;
+        margin-top: 5%;
     }
-    .imgServicio{
+
+    .imgServicio {
         width: 50%;
+    }
+}
+
+@media (max-width:769px){
+    .acordeon{
+        width: 95%;
     }
 }

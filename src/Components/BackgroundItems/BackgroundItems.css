@@ -18,3 +18,11 @@
 .custom-shape-divider-bottom-1676569556 .shape-fill {
     fill: var(--ColorFondo);
 }
+
+@media (max-width:1024px){
+    .custom-shape-divider-bottom-1676569556 svg {
+        height: 128px;
+    }     
+    
+
+}

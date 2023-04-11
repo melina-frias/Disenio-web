@@ -18,11 +18,10 @@ const SectionFinal = () => {
             columns'>
                 <img src={servicio} alt={servicio} 
                 className="imagenServicio
-                column is-half-desktop
+                column
                 " />
                 
-                <div className='column is-half-desktop 
-                if-full-tablet
+                <div className='column 
                 contenedorTexto'>
                     <h2 className='tituloSecciones'>Que hacemos ?</h2>
                     <p className='textoSecciones'>
