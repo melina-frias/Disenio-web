@@ -68,13 +68,32 @@ input[type=text],input[type=email]{
         text-align: center;
         align-items: center;
     }
+
     .contenedorInfo{
         display: flex;
         text-align: left;
         justify-content: center;
+    }
+   
+    .formulario{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
+@media (max-width:400px){
+    .formulario{
+        width: 100%;
         
     }
 
-    
+    .seccionForm{
+        padding: 50px 40px;
+    }
 }
+
+
+
 

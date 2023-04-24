@@ -59,6 +59,14 @@
 
 @media (max-width:769px){
     .acordeon{
-        width: 95%;
+        width: 93%;
+    }
+   
+}
+
+@media (min-width:400px){
+    .acordeon{
+        width: 90%;
+        /* padding: 0; */
     }
 }
